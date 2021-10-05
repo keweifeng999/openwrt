@@ -68,14 +68,15 @@ jobs:
           git clone https://github.com/openwrt/packages.git
           git clone https://github.com/openwrt/luci.git
           git clone https://github.com/openwrt/routing.git
+          git clone https://github.com/openwrt/archive.git
           # 第三方源码
-          # git clone https://github.com/xiaorouji/openwrt-passwall.git
+          git clone https://github.com/xiaorouji/openwrt-passwall.git
           # git clone https://github.com/kenzok8/openwrt-packages.git
           # git clone https://github.com/kenzok8/small.git
           git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
-          # git clone https://github.com/AdguardTeam/AdGuardHome.git
-          # git clone https://github.com/ujincn/smartdns.git
-          # git clone https://github.com/ujincn/luci-app-smartdns-compat.git
+          git clone https://github.com/AdguardTeam/AdGuardHome.git
+          git clone https://github.com/ujincn/smartdns.git
+          git clone https://github.com/ujincn/luci-app-smartdns-compat.git
           git clone https://github.com/honwen/luci-app-aliddns.git
 
 
@@ -153,9 +154,9 @@ jobs:
           # CONFIG_PACKAGE_luci-app-webadmin=y
           # CONFIG_PACKAGE_luci-app-wireguard=y
           # CONFIG_PACKAGE_luci-app-wrtbwmon=y
-          # CONFIG_PACKAGE_luci-app-passwall=y
-          # CONFIG_PACKAGE_luci-app-smartdns-compat=y
-          CONFIG_PACKAGE_luci-app-smartdns=y
+          CONFIG_PACKAGE_luci-app-passwall=y
+          CONFIG_PACKAGE_luci-app-smartdns-compat=y
+          # CONFIG_PACKAGE_luci-app-smartdns=y
           CONFIG_PACKAGE_luci-app-adguardhome=y
           CONFIG_PACKAGE_luci-app-aliddns=y
           # CONFIG_PACKAGE_aliyundrive-webdav=y
