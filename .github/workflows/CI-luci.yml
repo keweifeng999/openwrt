@@ -95,8 +95,8 @@ jobs:
           # 例如:
 
           cat >> .config <<EOF
-          CONFIG_TARGET_bcm47xx=y
-          CONFIG_TARGET_bcm47xx_mips74k=y
+          # CONFIG_TARGET_bcm47xx=y
+          # CONFIG_TARGET_bcm47xx_mips74k=y
           CONFIG_TARGET_bcm47xx_mips74k_DEVICE_asus_rt-n16=y
           # 基本包
           CONFIG_PACKAGE_luci=y
